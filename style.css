@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Spline Sans Mono', monospace;
+}
+
+:root {
+  --primary: black;
+  --secondary: #99D17B;
+  --tertiary: rgb(192, 246, 253);
+  --grey: #333;
+  font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: black;   
+}
+
+.page-content {
+    font-size: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    height: 75%;
+    background-color: var(--secondary);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
