@@ -1,18 +1,22 @@
-//funciton to handle display of generator results
+
 var endPoint = `https://www.boredapi.com/api/activity`;
-var submitButton = document.querySelector('.button');
+var submitButton = document.getElementById('.button');
 
-var displayResults = function () {
-
-
-}
-
-var seachHandler = function () {
+//funciton to handle display of generator results
+//var displayResults = function () {
 
 
-}
+//}
+
+
+//var searchHandler = function () {
+  //  console.log("button clicked");
+
+//};
 
 
 
 
-//submitButton.addEventListener("click", searchHandler);
+submitButton.addEventListener("click", () => {
+    console.log('btn clicked');
+  });
